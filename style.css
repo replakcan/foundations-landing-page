@@ -34,6 +34,11 @@
     gap: 1rem;
 }
 
+nav a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.904);
+}
+
 .main-text {
     font-size: 48px;
     font-weight: bolder;
