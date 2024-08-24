@@ -30,7 +30,7 @@
 
 .header-content {
     display: flex;
-    align-items: flex-start;
+    justify-content: space-between;
     gap: 1rem;
 }
 
@@ -58,4 +58,9 @@ nav a {
 
 .btn {
     background-color: #3882f6;
+    border: 1px solid  #3882f6;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    max-width: 70px;
+    color: white;
 }
