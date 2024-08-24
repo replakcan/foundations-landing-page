@@ -6,9 +6,21 @@
     border: 1px solid purple;
 }
 
-/* BASE STYLES */
-body {
-    background-color: #000;
-    font-family: "Inter", sans-serif;
-    color: #fff;
+
+.header-section {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10%;
+    gap: 3rem;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-content {
+    
 }
