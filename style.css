@@ -124,3 +124,12 @@ button {
     text-align: center;
 
 }
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--darkish);
+  color: var(--whiteish);
+  padding: 2rem 0;
+  font-size: var(--smFont);
+}
