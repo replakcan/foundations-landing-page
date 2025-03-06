@@ -98,32 +98,81 @@ button {
   border-color: var(--whiteish);
 }
 
-.header-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.content {
+  padding: 5rem 30%;
 }
 
-.btn {
-    background-color: #3882f6;
-    border: 1px solid  #3882f6;
-    border-radius: 0.5rem;
-    padding: 0.3rem;
-    max-width: 70px;
-    color: white;
+.content-card {
+  width: min-content;
 }
 
-.main-info {
+.content-card img {
+  width: 135px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.content-1 {
+  padding-top: 2rem;
   display: flex;
   flex-direction: column;
+  text-align: center;
+}
+
+.content-1 h2 {
+  margin-bottom: 2rem;
+  font-size: var(--lgFont);
+  font-weight: var(--ninehoundred);
+  color: var(--darkish);
+}
+
+.content-1 img {
+  border-radius: 1rem;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.content-2 {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--lightGray);
+}
+
+.content-2 p:first-child {
+  font-size: var(--lgFont);
+  color: var(--darkish);
+  font-weight: 200;
+  font-style: italic;
+}
+
+.content-2 p:last-child {
+  font-weight: var(--ninehoundred);
+  align-self: flex-end;
+}
+
+.content-3 {
+  padding: 1.5rem 5em;
+  border-radius: 0.5rem;
+  display: flex;
   align-items: center;
+  justify-content: space-between;
+  background-color: var(--chevyBlue);
+  color: var(--whiteish);
 }
 
-.info-info {
-    display: flex;
-    text-align: center;
-
+.content-3 p {
+  color: var(--lightGray);
 }
+
+.content-last {
+  padding-right: 25%;
+  padding-left: 25%;
+}
+
 .footer {
   display: flex;
   justify-content: center;
