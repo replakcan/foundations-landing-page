@@ -80,11 +80,22 @@ nav {
   aspect-ratio: 2/1;
   object-fit: cover;
 }
+
+button {
+  background-color: var(--chevyBlue);
+  color: var(--whiteish);
+  padding: 0.2rem 1.2rem;
+  border-radius: 0.3rem;
+  border-style: solid;
+  max-width: fit-content;
 }
 
-.secondary-text {
-    font-size: 18px;
-    color: #e5e7eb;
+.primary-btn {
+  border-color: var(--chevyBlue);
+}
+
+.secondary-btn {
+  border-color: var(--whiteish);
 }
 
 .header-item {
