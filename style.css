@@ -5,16 +5,21 @@
     padding: 0;
     box-sizing: border-box;
     border: 1px solid purple;
-}
 
+:root {
+  --globalFontFamily: 'Roboto';
 
-.header-section {
-    background-color: #1F2937;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    padding: 0 10%;
-    gap: 3rem;
+  --xlgFont: 48px;
+  --lgFont: 36px;
+  --mdFont: 24px;
+  --smFont: 18px;
+
+  --whiteish: #f9faf8;
+  --lightGray: #e5e7eb;
+  --darkish: #1f2937;
+  --chevyBlue: #3882f6;
+
+  --ninehoundred: 900;
 }
 
 .logo-txt {
