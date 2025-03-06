@@ -1,10 +1,10 @@
 /* RESET */
 * {
-    font-family: Roboto, serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border: 1px solid purple;
+  font-family: var(--globalFontFamily);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 :root {
   --globalFontFamily: 'Roboto';
