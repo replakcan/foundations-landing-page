@@ -76,6 +76,7 @@ nav {
 }
 
 .hero img {
+  border-radius: 1rem;
   width: 400px;
   aspect-ratio: 2/1;
   object-fit: cover;
